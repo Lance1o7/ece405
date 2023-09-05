@@ -1,0 +1,40 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: cover
+parts:
+  - caption: "INTRODUCTION"
+    numbered: True
+    chapters:
+    - file: chapters/1_intro/np.md
+    - file: chapters/1_intro/ising.md
+    - file: chapters/1_intro/max_cut.md
+
+  - caption: "SIMULATED ANNEALING AND MCMC"
+    numbered: True
+    chapters:
+    - file: chapters/2_sa_mcmc/sa.md
+    - file: chapters/2_sa_mcmc/mcmc.md
+
+  - caption: "CURRENT ISING MACHINES"
+    numbered: True
+    chapters:
+    - file: chapters/3_sota/dwave.md
+    - file: chapters/3_sota/cim.md
+    - file: chapters/3_sota/oim.md
+
+  - caption: "BRIM"
+    numbered: True
+    chapters:
+    - file: chapters/4_brim/brim.md
+  
+  - caption: "DYNAMICAL SYSTEMS"
+    numbered: True
+    chapters:
+    - file: chapters/5_dynamical_systems/dynamical.md
+  
+  - caption: "APPLICATIONS"
+    numbered: True
+    chapters:
+    - file: chapters/6_applications/sat.md
