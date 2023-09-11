@@ -1,5 +1,9 @@
 # Ising Machines: Principles and Practices
 
+```{admonition} Warning
+The site is still under construction. Some information may be inaccurate.
+```
+
 ## Course Description
 
 This course provides a systematic treatment of a number of related concepts in computing that are outside mainstream (von Neumann) approach. The primary goal is to help students understand the foundation of the on-going research of a particular type of von Neumann architecture: Ising machines.
